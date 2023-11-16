@@ -3,7 +3,7 @@ import { galleryItems } from "./gallery-items.js";
 document.addEventListener("DOMContentLoaded", function () {
   const gallery = new SimpleLightbox(".gallery a", {
     captionsData: "alt",
-    captionDelay: 400,
+    captionDelay: 250,
     docClose: true,
   });
 });
